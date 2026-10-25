@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Hills Coffee Plantation</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    main {
+      background-color: white;
+      overflow: hidden;
+    }
+
+    header {
+      padding: 15px;
+      background-color: #315b3e;
+      color: white;
+    }
+
+    h1 {
+      margin: 5px 0;
+      font-size: 24px;
+    }
+
+    header p {
+      margin-bottom: 0;
+    }
+
+    .farm-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .content {
+      padding: 15px;
+    }
+
+    h2 {
+      color: #315b3e;
+      font-size: 18px;
+    }
+
+    section {
+      margin-top: 20px;
+      padding-top: 5px;
+      border-top: 1px solid #d5dfd1;
+    }
+
+    .links {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 8px;
+      border: 1px solid #315b3e;
+      border-radius: 4px;
+      color: #315b3e;
+      text-decoration: none;
+    }
+
+    .links a:first-child {
+      background-color: #315b3e;
+      color: white;
+    }
+
+    footer {
+      margin: 15px;
+      padding: 10px;
+      background-color: #f2f0e5;
+      color: #315b3e;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <small>WELCOME TO OUR FARM</small>
+      <h1>Welcome to Green Hills Coffee Plantation</h1>
+      <p>Growing quality coffee, from our farm to your cup.</p>
+    </header>
+
+    <div class="content">
+      <img
+        class="farm-image"
+        src="./images (1).jpeg"
+        width="450"
+        alt="Coffee plants growing across the Green Hills plantation"
+        title="A view across Green Hills Coffee Plantation"
+      >
+      <section aria-labelledby="about-heading">
+        <h2 id="about-heading">About Our Plantation</h2>
+        <p>
+          Green Hills Coffee Plantation grows coffee using careful farming
+          practices. Visitors can learn about coffee cultivation, harvesting,
+          and processing.
+        </p>
+        <nav class="links" aria-label="Further information">
+          <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank" rel="noopener noreferrer">Learn About Coffee</a>
+          <a href="contact.html">Contact the Plantation</a>
+        </nav>
+      </section>
+
+      <section aria-labelledby="varieties-heading">
+        <h2 id="varieties-heading">Coffee Varieties</h2>
+        <ul>
+          <li>Arabica</li>
+          <li>Robusta</li>
+          <li>Batian</li>
+          <li>Ruiru 11</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="process-heading">
+        <h2 id="process-heading">Coffee Production Process</h2>
+        <ol>
+          <li>Planting coffee seedlings</li>
+          <li>Maintaining and pruning coffee bushes</li>
+          <li>Harvesting ripe coffee cherries</li>
+          <li>Drying and processing the beans</li>
+          <li>Packaging the processed coffee</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="activities-heading">
+        <h2 id="activities-heading">Plantation Activities</h2>
+        <dl>
+          <dt>Pruning</dt>
+          <dd>Removing selected branches to encourage healthy growth and productivity.</dd>
+
+          <dt>Harvesting</dt>
+          <dd>Picking ripe coffee cherries from the coffee bushes.</dd>
+
+          <dt>Drying</dt>
+          <dd>Reducing moisture in processed coffee beans before storage.</dd>
+        </dl>
+      </section>
+
+      <footer>
+        <strong>Green Hills Coffee Plantation</strong><br>
+        Quality coffee grown with care.
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
